@@ -1,0 +1,28 @@
+{
+  "name": "thin-mint",
+  "version": "1.0.0",
+  "description": "HTTP cookie utility",
+  "author": "Continuation Labs <contact@continuation.io> (http://continuation.io/)",
+  "main": "lib/index.js",
+  "homepage": "https://github.com/continuationlabs/thin-mint",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/continuationlabs/thin-mint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/continuationlabs/thin-mint/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "semistandard && lab -v -t 100 -a code"
+  },
+  "devDependencies": {
+    "code": "1.x.x",
+    "lab": "5.x.x",
+    "semistandard": "7.x.x"
+  },
+  "keywords": [
+    "cookie",
+    "http"
+  ]
+}
