@@ -350,6 +350,22 @@ describe('ThinMint', function () {
       fail({});
       done();
     });
+
+    it('throws when the cookie contains invalid characters', function (done) {
+      function fail (arg) {
+        expect(function () {
+          create(arg);
+        }).to.throw(RangeError, 'Cookie contains invalid characters');
+      }
+
+      fail('foo\nbar');
+      fail('foo=bar\r\nbaz');
+      fail('foo=bar; domain=g\u280aogle.com');
+      fail('foo=bar; path=/\rbaz');
+      fail('foo=bar; sec\nure');
+      fail('foo=bar⠊⠊ <script>');
+      done();
+    });
   });
 
   describe('toRequestCookie()', function () {
