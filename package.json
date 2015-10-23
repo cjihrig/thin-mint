@@ -1,6 +1,6 @@
 {
   "name": "thin-mint",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "HTTP cookie utility",
   "author": "Continuation Labs <contact@continuation.io> (http://continuation.io/)",
   "main": "lib/index.js",
@@ -14,9 +14,10 @@
   },
   "license": "MIT",
   "scripts": {
-    "test": "lab -v -t 100 -a code"
+    "test": "belly-button && lab -v -t 100 -a code"
   },
   "devDependencies": {
+    "belly-button": "1.x.x",
     "code": "1.x.x",
     "lab": "6.x.x"
   },
