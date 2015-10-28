@@ -3,7 +3,6 @@
 [![Current Version](https://img.shields.io/npm/v/thin-mint.svg)](https://www.npmjs.org/package/thin-mint)
 [![Build Status via Travis CI](https://travis-ci.org/continuationlabs/thin-mint.svg?branch=master)](https://travis-ci.org/continuationlabs/thin-mint)
 ![Dependencies](http://img.shields.io/david/continuationlabs/thin-mint.svg)
-![devDependencies](http://img.shields.io/david/dev/continuationlabs/thin-mint.svg)
 
 HTTP cookie utility. `thin-mint` provides parsing and stringification of individual HTTP cookies.
 
