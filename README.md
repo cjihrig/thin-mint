@@ -3,6 +3,8 @@
 [![Current Version](https://img.shields.io/npm/v/thin-mint.svg)](https://www.npmjs.org/package/thin-mint)
 [![Build Status via Travis CI](https://travis-ci.org/continuationlabs/thin-mint.svg?branch=master)](https://travis-ci.org/continuationlabs/thin-mint)
 ![Dependencies](http://img.shields.io/david/continuationlabs/thin-mint.svg)
+[![belly-button-style](https://img.shields.io/badge/eslint-bellybutton-4B32C3.svg)](https://github.com/continuationlabs/belly-button)
+
 
 HTTP cookie utility. `thin-mint` provides parsing and stringification of individual HTTP cookies.
 
